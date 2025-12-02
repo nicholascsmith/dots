@@ -1,6 +1,6 @@
 
 [Default Applications]
-inode/directory=org.gnome.Nautilus.desktop
+inode/directory=Thunar.desktop
 [Default Applications]
 text/plain=dev.zed.Zed.desktop
 application/x-shellscript=dev.zed.Zed.desktop
