@@ -1,0 +1,13 @@
+window#waybar {
+  background-color: rgba(0, 0, 0, 1);
+}
+
+* {
+  font-family: 'JetBrainsMono Nerd Font', monospace;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+#battery {
+  color: #fff;
+}

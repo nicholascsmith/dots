@@ -1,0 +1,6 @@
+# Hide unlock indicator (ring and verification text)
+no-unlock-indicator
+
+# Background image
+image=~/Pictures/wallpapers/bg.jpg
+scaling=fill

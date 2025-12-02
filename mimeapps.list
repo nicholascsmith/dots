@@ -1,0 +1,26 @@
+
+[Default Applications]
+inode/directory=org.gnome.Nautilus.desktop
+[Default Applications]
+text/plain=dev.zed.Zed.desktop
+application/x-shellscript=dev.zed.Zed.desktop
+inode/x-empty=dev.zed.Zed.desktop
+text/x-c=dev.zed.Zed.desktop
+text/x-c++=dev.zed.Zed.desktop
+text/x-python=dev.zed.Zed.desktop
+text/x-shellscript=dev.zed.Zed.desktop
+text/x-makefile=dev.zed.Zed.desktop
+text/html=dev.zed.Zed.desktop
+text/css=dev.zed.Zed.desktop
+text/javascript=dev.zed.Zed.desktop
+application/json=dev.zed.Zed.desktop
+application/xml=dev.zed.Zed.desktop
+application/x-yaml=dev.zed.Zed.desktop
+text/markdown=dev.zed.Zed.desktop
+application/x-desktop=dev.zed.Zed.desktop
+text/x-ini=dev.zed.Zed.desktop
+application/toml=dev.zed.Zed.desktop
+[Default Applications]
+text/plain=dev.zed.Zed.desktop
+application/x-shellscript=dev.zed.Zed.desktop
+inode/x-empty=dev.zed.Zed.desktop

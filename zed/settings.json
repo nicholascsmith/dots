@@ -1,0 +1,51 @@
+{
+  // Keybindings & Core
+  "base_keymap": "JetBrains",
+
+  // Privacy & Telemetry
+  "telemetry": {
+    "diagnostics": false,
+    "metrics": false
+  },
+
+  // Typography & Appearance
+  "ui_font_size": 16,
+  "buffer_font_size": 15,
+  "tab_size": 2,
+  "theme": {
+    "light": "One Light",
+    "dark": "Gruvbox Dark"
+  },
+  "scrollbar": {
+    "show": "never"
+  },
+
+  // Editor Display
+  "soft_wrap": "editor_width",
+  "preferred_line_length": 120,
+  "wrap_guides": [120],
+  "indent_guides": {
+    "coloring": "indent_aware"
+  },
+
+  // Editing Behavior & Formatting
+  "format_on_save": "on",
+  "formatter": "prettier",
+  "ensure_final_newline_on_save": true,
+  "remove_trailing_whitespace_on_save": true,
+  "autosave": "on_focus_change",
+
+  // Code Intelligence
+  "inlay_hints": {
+    "enabled": true
+  },
+
+  // Terminal & Environment
+  "terminal": {
+    "font_size": 12,
+    "shell": {
+      "program": "bash"
+    }
+  },
+  "restore_on_startup": "last_workspace"
+}

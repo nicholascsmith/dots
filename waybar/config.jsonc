@@ -1,0 +1,11 @@
+{
+  "layer": "top",
+  "position": "top",
+  "height": 25,
+  "modules-center": ["battery"],
+
+  "battery": {
+    "interval": 60,
+    "format": "{capacity}%"
+  }
+}

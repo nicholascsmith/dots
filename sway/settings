@@ -1,0 +1,16 @@
+# Modifier key
+set $mod Mod4
+
+# Direction keys
+set $left Left
+set $down Down
+set $up Up
+set $right Right
+
+# Applications
+set $term foot
+set $web 'brave-browser'
+set $file_browser nautilus
+
+# Sway UI Font
+font pango:JetBrains Mono 10

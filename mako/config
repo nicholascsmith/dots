@@ -1,0 +1,34 @@
+# Position
+anchor=top-center
+layer=top
+
+# Size & spacing
+width=350
+outer-margin=10,0
+margin=10
+padding=15
+
+# Font
+font=JetBrains Mono 11
+format=<b>%s</b>\n%b
+
+# Colors (black with 1 opacity)
+background-color=#000000FF
+text-color=#ffffffFF
+
+# Border
+border-size=2
+border-color=#ffffffFF
+border-radius=0
+
+# Icons
+icons=0
+
+# Behavior
+default-timeout=10000
+max-visible=5
+
+# Critical notifications stay until dismissed
+[urgency=critical]
+default-timeout=0
+background-color=#ff0000FF
