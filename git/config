@@ -1,28 +1,108 @@
-# See https://git-scm.com/docs/git-config
+# Identity & Signing
 
-[alias]
-	co = checkout
-	br = branch
-	ci = commit
-	st = status
+[user]
+	name = ncarters
+	email = nicholas@ncarters.com
+	signingkey = ~/.ssh/id_ed25519.pub
+
+[gpg]
+	format = ssh
+
+[commit]
+	verbose = true
+	gpgsign = true
+
+[tag]
+	sort = -version:refname
+	gpgsign = true
+
+# Core & System Settings
+
 [init]
 	defaultBranch = master
-[pull]
-	rebase = true 			 # Rebase (instead of merge) on pull
-[push]
-	autoSetupRemote = true   # Automatically set upstream branch on push
-[diff]
-	algorithm = histogram    # Clearer diffs on moved/edited lines
-	colorMoved = plain       # Highlight moved blocks in diffs
-	mnemonicPrefix = true    # More intuitive refs in diff output
-[commit]
-	verbose = true           # Include diff comment in commit message template
+
+[core]
+	fsmonitor = true
+	excludesFile = ~/.config/git/ignore
+
+[help]
+	autocorrect = prompt
+
 [column]
-	ui = auto 			     # Output in columns when possible
+	ui = auto
+
+# Safety & Verification
+
+[transfer]
+	fsckObjects = true
+
+[fetch]
+	prune = true
+	fsckObjects = true
+
+[receive]
+	fsckObjects = true
+
+# Workflow Settings
+
+[pull]
+	rebase = true
+
+[push]
+	autoSetupRemote = true
+
 [branch]
-	sort = -committerdate    # Sort branches by most recent commit first
-[tag]
-	sort = -version:refname  # Sort version numbers as you would expect
+	sort = -committerdate
+
+[merge]
+	conflictstyle = zdiff3
+
+[rebase]
+	autoStash = true
+	updateRefs = true
+
 [rerere]
-	enabled = true           # Record and reuse conflict resolutions
-	autoupdate = true        # Apply stored conflict resolutions automatically
+	enabled = true
+	autoupdate = true
+
+# Diff Settings
+
+[diff]
+	algorithm = histogram
+	colorMoved = plain
+	mnemonicPrefix = true
+
+# Aliases
+
+[alias]
+	undo = reset --soft HEAD~1
+
+# Color Configuration
+
+[color]
+	ui = auto
+
+[color "status"]
+	added = green bold
+	changed = yellow bold
+	untracked = red bold
+	branch = magenta bold
+	header = white
+
+[color "branch"]
+	current = magenta bold
+	local = white
+	remote = cyan
+
+[color "diff"]
+	meta = yellow bold
+	frag = magenta bold
+	old = red bold
+	new = green bold
+	whitespace = red reverse
+
+[color "decorate"]
+	HEAD = magenta bold
+	branch = magenta bold
+	remoteBranch = cyan bold
+	tag = yellow bold
