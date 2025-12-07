@@ -120,6 +120,7 @@ bindsym $mod+y exec brave-browser --app=https://www.youtube.com/feed/subscriptio
 bindsym $mod+a exec xarchiver
 bindsym $mod+slash exec brave-browser --app=https://claude.ai
 bindsym $mod+Return exec flatpak run com.heroicgameslauncher.hgl
+bindsym $mod+Shift+Return exec brave-browser --app=https://openguessr.com
 bindsym $mod+x exec brave-browser --app=https://x.com
 bindsym $mod+m exec brave-browser --app=https://music.apple.com
 bindsym $mod+i exec brave-browser --app=https://www.icloud.com/notes
