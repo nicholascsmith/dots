@@ -1,0 +1,20 @@
+[
+  {
+    "context": "Editor",
+    "bindings": {
+      // Basic file operations
+      "ctrl-n": "workspace::NewFile",
+      "ctrl-o": "file_finder::Toggle",
+      "ctrl-shift-o": "workspace::Open",
+      "ctrl-s": "workspace::Save",
+      "ctrl-q": "pane::CloseActiveItem",
+
+      // Find & replace
+      "ctrl-f": "buffer_search::Deploy",
+      "ctrl-r": "search::ToggleReplace",
+
+      // Code editing
+      "ctrl-/": "editor::ToggleComments"
+    }
+  }
+]
